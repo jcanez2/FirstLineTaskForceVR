@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style type="text/css">
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #vrview {
+        /* div you want to stretch */
+        background-color: green;
+        height: 100%; /** IE 6 */
+        min-height: 100%;
+      }
+    </style>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test VR</title>
+    <script src="https://storage.googleapis.com/vrview/2.0/build/vrview.min.js"></script>
+  </head>
+  <body>
+    <!-- <div id="vrview" ></div>
+   
+    
+        <script>
+          // {/* Fill the window with image  Help Site = https://developers.google.com/vr/develop/web/vrview-web*/}
+        window.addEventListener('load', onVrViewLoad);
+
+        function onVrViewLoad() {
+        // Selector '#vrview' finds element with id 'vrview'.
+        // site for images Alamy.com
+        var vrView = new VRView.Player('#vrview', {
+            image: "https://l13.alamy.com/360/PN91N8/emergency-heliport-rodanthe-north-carolina-PN91N8.jpg",
+            width: '100%',
+            height: '100%',
+            
+            is_stereo: false
+        });
+        }
+
+        vrView.addHotspot('er', {
+  pitch: 30, // In degrees. Up is positive.
+  yaw: 20, // In degrees. To the right is positive.
+  radius: 0.05, // Radius of the circular target in meters.
+  distance: 2 // Distance of target from camera in meters.
+});
+        /*
+        var vrView = new VRView.Player('#vrview', {
+        video: 'https://youtu.be/aBiNNgfB7jI',
+        is_stereo: false
+        });
+       
+        var vrView = new VRView.Player('#vrview2', {
+        image : "./three60.jpg",
+        is_stereo: false
+        });
+
+       */ 
+
+        
+
+        
+        </script>
+      
+    
+        <br/>
+        <p>Hello</p>
+        <div>
+            // https://l13.alamy.com/360/PME3J5/emergency-day-multitudinous-accident-simulation-PME3J5.jpg
+            // src="https://poly.google.com/view/3PAkmr0Yf6i/embed?chrome=min"
+        </div> -->
+    <div>
+      <button
+        style="position: absolute; z-index: 1; width: 75px; height: 40px"
+        onclick="location.href='https://firstlinetaskforcevrenv.web.app/'"
+        type="button"
+      >
+        Back
+      </button>
+    </div>
+    <!-- <iframe
+      width="100%"
+      height="100%"
+      src="https://poly.google.com/view/3PAkmr0Yf6i/embed?chrome=min"
+      frameborder="0"
+      style="border: none; position: absolute"
+      allowvr="no"
+      allow="vr; xr; accelerometer; magnetometer; gyroscope; autoplay;"
+      allowfullscreen
+      mozallowfullscreen="true"
+      webkitallowfullscreen="true"
+      onmousewheel=""
+    ></iframe> -->
+
+    <iframe
+      width="100%"
+      height="100%"
+      src="https://poly.google.com/view/45Y3X4sXKLi/embed?chrome=min"
+      frameborder="0"
+      style="border: none; position: absolute;"
+      allowvr="yes"
+      allow="vr; xr; accelerometer; magnetometer; gyroscope; autoplay;"
+      allowfullscreen
+      mozallowfullscreen="true"
+      webkitallowfullscreen="true"
+      onmousewheel=""
+    ></iframe>
+  </body>
+</html>
